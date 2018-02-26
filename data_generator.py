@@ -50,29 +50,3 @@ def create_PHNlist():
 		PHN_list.append(PHN)
 	return PHN_list
 	#print(PHN_list)
-
-
-def create_query():
-	name_list_length = randint(3,7)
-	birthdate_list_length = randint(1,3)
-	PHN_list_length = randint(2,4)
-
-	name_list = []
-	birthdate_list = []
-	PHN_list = []
-
-	for index in range(name_list_length):
-		name = get_name()
-		name_list.append(name)
-	print(name_list)
-
-	for index in range(birthdate_list_length):
-		birthdate = get_birthdate()
-		birthdate_list.append(birthdate)
-	print(birthdate_list)
-
-	for index in range(PHN_list_length):
-		PHN = get_PHN()
-		PHN_list.append(PHN)
-	print(PHN_list)
-
